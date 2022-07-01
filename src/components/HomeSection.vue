@@ -1,15 +1,24 @@
 <template>
   <section id="hero">
-    <v-parallax dark src="@/assets/img/bgHero.jpg" height="750">
+    <v-parallax dark src="@/assets/img/geometricBackground.jpg" height="750">
       <v-row align="center" justify="center">
         <v-col cols="10">
           <v-row align="center" justify="center">
             <v-col cols="12" md="6" xl="8">
-              <h1 class="display-2 font-weight-bold mb-4">Vuetify.js</h1>
-              <h1 class="font-weight-light">
-                Lorem ipsum dolor sit amet consectetur <br />
-                adipisicing elit. Maiores porro voluptatibus <br />
-                delectus nam optio harum!
+              <h1 class="display-2 font-weight-bold mb-4 text--secondary">
+                Coming Soon
+              </h1>
+              <h1 class="font-weight-light text--secondary">
+                Personal finance for <br />
+                <vue-typed-js
+                  :strings="['organized', 'busy', 'power']"
+                  :typeSpeed="100"
+                  :loop="true"
+                  :loopCount="300"
+                >
+                  <h1 class="typing"></h1>
+                </vue-typed-js>
+                couples
               </h1>
               <v-btn
                 rounded
@@ -17,115 +26,17 @@
                 large
                 dark
                 @click="$vuetify.goTo('#features')"
-                class="mt-5"
+                class="mt-5 text--secondary"
               >
-                Saiba mais
+                Learn More
                 <v-icon class="ml-2">mdi-arrow-down</v-icon>
               </v-btn>
-              <div class="video d-flex align-center py-4">
-                <a @click.stop="dialog = true" class="playBut">
-                  <svg
-                    version="1.1"
-                    xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                    xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
-                    x="0px"
-                    y="0px"
-                    width="60px"
-                    height="60px"
-                    viewBox="0 0 213.7 213.7"
-                    enable-background="new 0 0 213.7 213.7"
-                    xml:space="preserve"
-                  >
-                    <polygon
-                      class="triangle"
-                      id="XMLID_18_"
-                      fill="none"
-                      stroke-width="7"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-miterlimit="10"
-                      points="73.5,62.5 148.5,105.8 73.5,149.1 "
-                    />
-
-                    <circle
-                      class="circle"
-                      id="XMLID_17_"
-                      fill="none"
-                      stroke-width="7"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-miterlimit="10"
-                      cx="106.8"
-                      cy="106.8"
-                      r="103.3"
-                    />
-                  </svg>
-                </a>
-                <p class="subheading ml-2 mb-0">Assista o vídeo</p>
-              </div>
             </v-col>
             <v-col cols="12" md="6" xl="4" class="hidden-sm-and-down"> </v-col>
           </v-row>
         </v-col>
       </v-row>
-      <div class="svg-border-waves text-white">
-        <v-img src="@/assets/img/borderWaves.svg" />
-      </div>
     </v-parallax>
-    <v-container fluid id="features" class="mt-2">
-      <v-row align="center" justify="center">
-        <v-col cols="10">
-          <v-row align="center" justify="space-around">
-            <!-- <v-col cols="12" class="text-center">
-              <h1 class="font-weight-light display-2">Title</h1>
-              <h1 class="font-weight-light">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              </h1>
-            </v-col> -->
-            <v-col
-              cols="12"
-              sm="4"
-              class="text-center"
-              v-for="(feature, i) in features"
-              :key="i"
-            >
-              <v-hover v-slot:default="{ hover }">
-                <v-card
-                  class="card"
-                  shaped
-                  :elevation="hover ? 10 : 4"
-                  :class="{ up: hover }"
-                >
-                  <v-img
-                    :src="feature.img"
-                    max-width="100px"
-                    class="d-block ml-auto mr-auto"
-                    :class="{ 'zoom-efect': hover }"
-                  ></v-img>
-                  <h1 class="font-weight-regular">{{ feature.title }}</h1>
-                  <h4 class="font-weight-regular subtitle-1">
-                    {{ feature.text }}
-                  </h4>
-                </v-card>
-              </v-hover>
-            </v-col>
-          </v-row>
-        </v-col>
-      </v-row>
-    </v-container>
-    <v-dialog v-model="dialog" max-width="640px">
-      <v-card>
-        <youtube
-          :video-id="videoId"
-          @ready="ready"
-          @playing="playing"
-        ></youtube>
-      </v-card>
-    </v-dialog>
-    <div class="svg-border-waves">
-      <img src="~@/assets/img/wave2.svg" />
-    </div>
   </section>
 </template>
 
@@ -133,54 +44,7 @@
 export default {
   data() {
     return {
-      dialog: false,
-      videoId: "i8IvvHJssWE",
-      features: [
-        {
-          img: require("@/assets/img/icon2.png"),
-          title: "Design Limpo",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        },
-        {
-          img: require("@/assets/img/icon1.png"),
-          title: "Dados Seguros",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        },
-        {
-          img: require("@/assets/img/icon3.png"),
-          title: "Código Aberto",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        },
-      ],
     };
-  },
-  watch: {
-    dialog(value) {
-      if (!value) {
-        this.pause();
-      }
-    },
-  },
-  methods: {
-    ready(event) {
-      this.player = event.target;
-    },
-    playing(event) {
-      // The player is playing a video.
-    },
-    change() {
-      // when you change the value, the player will also change.
-      // If you would like to change `playerVars`, please change it before you change `videoId`.
-      // If `playerVars.autoplay` is 1, `loadVideoById` will be called.
-      // If `playerVars.autoplay` is 0, `cueVideoById` will be called.
-      this.videoId = "another video id";
-    },
-    stop() {
-      this.player.stopVideo();
-    },
-    pause() {
-      this.player.pauseVideo();
-    },
   },
 };
 </script>

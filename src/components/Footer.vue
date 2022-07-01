@@ -13,16 +13,9 @@
           <v-icon size="24px">{{ icon.text }}</v-icon>
         </v-btn>
       </v-card-text>
-
-      <v-card-text class="white--text pt-0">
-        Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet.
-        Mauris cursus commodo interdum.
-      </v-card-text>
-
       <v-divider></v-divider>
-
       <v-card-text class="white--text">
-        {{ new Date().getFullYear() }} — <strong>Calango WEB</strong>
+        Copyright &copy; 2022-{{ new Date().getFullYear() }} Duo Capital LLC
       </v-card-text>
     </v-card>
   </v-footer>
@@ -39,20 +32,12 @@ export default {
   data: () => ({
     icons: [
       {
-        text: "mdi-facebook",
-        link: "",
-      },
-      {
         text: "mdi-twitter",
-        link: "",
+        link: "https://twitter.com/duo_capital",
       },
       {
         text: "mdi-linkedin",
         link: "",
-      },
-      {
-        text: "mdi-instagram",
-        link: "https://instagram.com/joabson_arley/",
       },
     ],
   }),

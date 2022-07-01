@@ -2,10 +2,13 @@ import Vue from 'vue'
 import App from './App.vue'
 import vuetify from './plugins/vuetify';
 import VueYouTubeEmbed from 'vue-youtube-embed'
+import VueTypedJs from 'vue-typed-js'
+
 // import firebase from 'firebase/app'
 // import 'firebase/firestore'
 
 Vue.use(VueYouTubeEmbed)
+Vue.use(VueTypedJs)
 Vue.config.productionTip = false
 
 // firebase.initializeApp({
