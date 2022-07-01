@@ -1,29 +1,29 @@
 <template>
-  <v-app>
-    <navigation :color="color" :flat="flat" />
-    <v-main class="pt-0">
-      <home />
-      <contact />
-    </v-main>
-    <v-scale-transition>
-      <v-btn
-        fab
-        v-show="fab"
-        v-scroll="onScroll"
-        dark
-        fixed
-        bottom
-        right
-        color="secondary"
-        @click="toTop"
-      >
-        <v-icon>mdi-arrow-up</v-icon>
-      </v-btn>
-    </v-scale-transition>
-    <foote />
-  </v-app>
+  <div id="app">
+    <v-app>
+      <navigation :color="color" :flat="flat" />
+      <v-main class="pt-0">
+        <router-view />
+      </v-main>
+      <v-scale-transition>
+        <v-btn
+          fab
+          v-show="fab"
+          v-scroll="onScroll"
+          dark
+          fixed
+          bottom
+          right
+          color="secondary"
+          @click="toTop"
+        >
+          <v-icon>mdi-arrow-up</v-icon>
+        </v-btn>
+      </v-scale-transition>
+      <foote />
+    </v-app>
+  </div>
 </template>
-
 <style scoped>
 .v-main {
   background-image: url("~@/assets/img/bgMain.png");
@@ -34,21 +34,15 @@
 </style>
 
 <script>
-import navigation from "./components/Navigation";
-import foote from "./components/Footer";
-import home from "./components/HomeSection";
-import contact from "./components/ContactSection";
+import navigation from "@/components/Navigation";
+import foote from "@/components/Footer";
 
 export default {
   name: "App",
-
-  components: {
+  components :{
     navigation,
-    foote,
-    home,
-    contact,
+    foote
   },
-
   data: () => ({
     fab: null,
     color: "",

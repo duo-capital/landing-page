@@ -3,12 +3,15 @@ import App from './App.vue'
 import vuetify from './plugins/vuetify';
 import VueYouTubeEmbed from 'vue-youtube-embed'
 import VueTypedJs from 'vue-typed-js'
+import VueRouter from 'vue-router'
+import router from './router'
 
 // import firebase from 'firebase/app'
 // import 'firebase/firestore'
 
 Vue.use(VueYouTubeEmbed)
 Vue.use(VueTypedJs)
+Vue.use(VueRouter)
 Vue.config.productionTip = false
 
 // firebase.initializeApp({
@@ -19,5 +22,6 @@ Vue.config.productionTip = false
 
 new Vue({
   vuetify,
+  router, // we tell our vue instance to use this vue router
   render: h => h(App)
 }).$mount('#app')

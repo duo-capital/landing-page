@@ -13,6 +13,16 @@
           <v-icon size="24px">{{ icon.text }}</v-icon>
         </v-btn>
       </v-card-text>
+      <v-card-text class="white--text pt-0">
+        <router-link
+          style="text-decoration: none; color: inherit;"
+          v-for="navbar in navbars"
+          :key="navbar.id"
+          :to="navbar.router"
+          >{{ navbar.names }}
+        </router-link>
+      </v-card-text>
+
       <v-divider></v-divider>
       <v-card-text class="white--text">
         Copyright &copy; 2022-{{ new Date().getFullYear() }} Duo Capital LLC
@@ -39,6 +49,11 @@ export default {
         text: "mdi-linkedin",
         link: "",
       },
+    ],
+    navbars: [
+      { names: "Privacy | ", router: "/privacy" },
+      { names: "Terms of Service | ", router: "/terms" },
+      { names: "Cookie Policy", router: "/cookies" },
     ],
   }),
 };
