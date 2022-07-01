@@ -1,5 +1,5 @@
 <template>
-  <section class="pb-8" id="contact">
+  <section class="pb-8">
     <v-container fluid>
       <v-row align="center" justify="center">
         <v-col cols="10">
@@ -19,23 +19,6 @@
     </v-container>
   </section>
 </template>
-
-<style scoped>
-#contact {
-  background-color: #f4f7f5;
-}
-
-.svg-border-waves .v-image {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  height: 3rem;
-  width: 100%;
-  overflow: hidden;
-}
-
-</style>
-
 <script>
 // import {db} from '@/main'
 
