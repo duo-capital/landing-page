@@ -3,6 +3,7 @@
     <v-app>
       <navigation :color="color" :flat="flat" />
       <v-main class="pt-0">
+          
         <router-view />
       </v-main>
       <v-scale-transition>
@@ -26,7 +27,7 @@
 </template>
 <style scoped>
 .v-main {
-  background-image: url("~@/assets/img/bgMain.png");
+  background-image: url("~@/assets/img/geometricBackground.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;

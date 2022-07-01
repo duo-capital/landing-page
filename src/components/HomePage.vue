@@ -1,7 +1,6 @@
 <template>
   <div>
     <home />
-    <contact />
   </div>
 </template>
 

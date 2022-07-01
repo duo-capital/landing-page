@@ -24,7 +24,7 @@
           v-for="([icon, text, link], i) in items"
           :key="i"
           link
-          @click="$vuetify.goTo(link)"
+          @click="$router.push(link)"
         >
           <v-list-item-icon class="justify-center">
             <v-icon>{{ icon }}</v-icon>
@@ -42,7 +42,7 @@
       app
       :color="color"
       :flat="flat"
-      dark
+      :dark="!isXs"
       class="px-15"
       :class="{ expand: flat }"
     >
@@ -56,11 +56,8 @@
         v-if="isXs"
       />
       <div v-else>
-        <v-btn text @click="$vuetify.goTo('#hero')">
-          <span class="mr-2 text--secondary">Home</span>
-        </v-btn>
-        <v-btn rounded outlined text @click="$vuetify.goTo('#contact')">
-          <span class="mr-2 text--secondary">Contact Us</span>
+        <v-btn text @click="$router.push('/')">
+          <span :class="flat ? 'mr-2 text--secondary' : 'mr-2 text--white'" >Home</span>
         </v-btn>
       </div>
     </v-app-bar>
@@ -84,11 +81,8 @@ export default {
     drawer: null,
     isXs: false,
     items: [
-      ["mdi-home-outline", "Home", "#hero"],
-      ["mdi-information-outline", "About", "#features"],
-      ["mdi-download-box-outline", "Download", "#download"],
-      ["mdi-currency-usd", "Pricing", "#pricing"],
-      ["mdi-email-outline", "Contact Us", "#contact"],
+      ["mdi-home-outline", "Home", "/"],
+      ["mdi-information-outline", "Privacy", "/privacy"],
     ],
   }),
   props: {
