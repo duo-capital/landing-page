@@ -27,7 +27,7 @@
 </template>
 <style scoped>
 .v-main {
-  background-image: url("~@/assets/img/geometricBackground.jpg");
+  background-image: url("~@/assets/img/backgroundGeo2.svg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;

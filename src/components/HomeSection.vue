@@ -1,6 +1,6 @@
 <template>
-  <section id="hero">
-    <v-parallax dark src="@/assets/img/geometricBackground.jpg" height="900">
+<v-container>    
+  <section class="mt-12 pt-5" id="hero">
       <v-row align="center" justify="center">
         <v-col cols="10">
           <v-row align="center" justify="center">
@@ -36,8 +36,8 @@
           </v-row>
         </v-col>
       </v-row>
-    </v-parallax>
   </section>
+  </v-container>
 </template>
 
 <script>
