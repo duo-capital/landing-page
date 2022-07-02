@@ -12,7 +12,7 @@
             <img src="@/assets/img/logo.jpg" alt="Logo" />
           </v-list-item-avatar>
           <v-list-item-content>
-            <v-list-item-title class="title text--white">Duo</v-list-item-title>
+            <v-list-item-title class="title">Duo</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
       </v-list>
