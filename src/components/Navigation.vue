@@ -1,11 +1,6 @@
 <template>
   <div>
-    <v-navigation-drawer
-      v-model="drawer"
-      app
-      temporary
-      dark
-    >
+    <v-navigation-drawer v-model="drawer" app temporary dark>
       <v-list>
         <v-list-item>
           <v-list-item-avatar>
@@ -57,7 +52,9 @@
       />
       <div v-else>
         <v-btn text @click="$router.push('/')">
-          <span :class="flat ? 'mr-2 text--secondary' : 'mr-2 text--white'" >Home</span>
+          <span :class="flat ? 'mr-2 text--secondary' : 'mr-2 text--white'"
+            >Home</span
+          >
         </v-btn>
       </div>
     </v-app-bar>

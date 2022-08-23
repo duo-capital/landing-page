@@ -3,7 +3,6 @@
     <v-app>
       <navigation :color="color" :flat="flat" />
       <v-main class="pt-0">
-          
         <router-view />
       </v-main>
       <v-scale-transition>
@@ -40,9 +39,9 @@ import foote from "@/components/Footer";
 
 export default {
   name: "App",
-  components :{
+  components: {
     navigation,
-    foote
+    foote,
   },
   data: () => ({
     fab: null,

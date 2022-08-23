@@ -45,10 +45,6 @@ export default {
         text: "mdi-twitter",
         link: "https://twitter.com/duo_capital",
       },
-      {
-        text: "mdi-linkedin",
-        link: "",
-      },
     ],
     navbars: [
       { names: "Privacy | ", router: "/privacy" },
