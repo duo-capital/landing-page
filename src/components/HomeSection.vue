@@ -46,7 +46,7 @@
             </v-col>
             <v-col cols="12" md="6" xl="4" class="hidden-sm-and-down"> </v-col>
           </v-row>
-          <v-row class="mt-4 pt-4 align-end">
+          <v-row class="mt-4 pt-4 mb-4 align-end">
             <template>
               <h1 class="display-1 font-weight-bold mb-4 text--secondary">
                 FAQs
