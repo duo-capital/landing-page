@@ -9,8 +9,8 @@
         dismissible
         icon="mdi-bullhorn-variant"
       >
-        FYI: If you (just like us) were affected by Zeta's application shutting down, we will fast
-        track you into our beta user batch!
+        FYI: If you (just like us) were affected by Zeta's application shutting
+        down, we will fast track you into our beta user batch!
       </v-alert>
       <v-row align="center" justify="center">
         <v-col cols="10">
@@ -36,7 +36,8 @@
                 outlined
                 large
                 dark
-                @click="$vuetify.goTo('#features')"
+                href="https://wqbotpc2g9r.typeform.com/to/lbqzqZi2"
+                target="_blank"
                 class="mt-5 text--secondary"
               >
                 Get Early Access
