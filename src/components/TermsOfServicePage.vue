@@ -5,11 +5,11 @@
         <h2>Terms of Service</h2>
         <p>
           These Terms of Service govern your use of the website located at
-          <a href="https://duo.capital">https://duo.capital</a> and any related
+          <a href="https://heyduo.com">https://heyduo.com</a> and any related
           services provided by Duo Capital LLC.
         </p>
         <p>
-          By accessing <a href="https://duo.capital">https://duo.capital</a>,
+          By accessing <a href="https://heyduo.com">https://heyduo.com</a>,
           you agree to abide by these Terms of Service and to comply with all
           applicable laws and regulations. If you do not agree with these Terms
           of Service, you are prohibited from using or accessing this website or

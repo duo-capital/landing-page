@@ -5,7 +5,7 @@
         <h2>Cookie Policy</h2>
         <p>
           We use cookies to help improve your experience of our website at
-          <a href="https://duo.capital">https://duo.capital</a>. This cookie
+          <a href="https://heyduo.com">https://heyduo.com</a>. This cookie
           policy is part of Duo Capital LLC&#39;s privacy policy. It covers the
           use of cookies between your device and our site.
         </p>
@@ -17,7 +17,7 @@
         <p>
           If you don’t wish to accept cookies from us, you should instruct your
           browser to refuse cookies from
-          <a href="https://duo.capital">https://duo.capital</a>. In such a case,
+          <a href="https://heyduo.com">https://heyduo.com</a>. In such a case,
           we may be unable to provide you with some of your desired content and
           services.
         </p>

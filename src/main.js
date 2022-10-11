@@ -5,6 +5,7 @@ import VueYouTubeEmbed from 'vue-youtube-embed'
 import VueTypedJs from 'vue-typed-js'
 import VueRouter from 'vue-router'
 import router from './router'
+import VuePapaParse from 'vue-papa-parse'
 
 // import firebase from 'firebase/app'
 // import 'firebase/firestore'
@@ -12,6 +13,7 @@ import router from './router'
 Vue.use(VueYouTubeEmbed)
 Vue.use(VueTypedJs)
 Vue.use(VueRouter)
+Vue.use(VuePapaParse)
 Vue.config.productionTip = false
 
 // firebase.initializeApp({

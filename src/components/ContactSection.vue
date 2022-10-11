@@ -7,7 +7,7 @@
             <v-col cols="12" sm="5">
               <h1 class="font-weight-light display-1">Contact Us</h1>
               <h3 class="font-weight-light">
-                Email: info@duo.capital
+                Email: info@heyduo.com
               </h3>
             </v-col>
             <v-col cols="12" sm="7">

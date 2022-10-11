@@ -8,7 +8,7 @@
           respect your privacy and comply with any applicable law and regulation
           regarding any personal information we may collect about you, including
           across our website,
-          <a href="https://duo.capital">https://duo.capital</a>, and other sites
+          <a href="https://heyduo.com">https://heyduo.com</a>, and other sites
           we own and operate.
         </p>
         <p>
@@ -298,7 +298,7 @@
         </p>
         <p>
           Duo Capital LLC<br />
-          info@duo.capital
+          info@heyduo.com
         </p>
       </v-main>
     </v-container>
