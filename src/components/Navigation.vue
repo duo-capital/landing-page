@@ -78,7 +78,8 @@ export default {
     isXs: false,
     items: [
       ["mdi-home-outline", "Home", "/"],
-      ["mdi-information-outline", "Privacy", "/privacy"],
+      ["mdi-security", "Privacy", "/privacy"],
+      ["mdi-file-sign", "Terms of Service", "/terms"],
     ],
   }),
   props: {

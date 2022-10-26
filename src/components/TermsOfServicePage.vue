@@ -1,15 +1,15 @@
 <template>
   <div>
     <v-container>
-      <v-main class="mt-60">
+      <v-main class="mt-60 white--text">
         <h2>Terms of Service</h2>
         <p>
           These Terms of Service govern your use of the website located at
-          <a href="https://heyduo.com">https://heyduo.com</a> and any related
+          <a href="https://heyduo.com" class="grey--text">https://heyduo.com</a> and any related
           services provided by Duo Capital LLC DBA Hey Duo.
         </p>
         <p>
-          By accessing <a href="https://heyduo.com">https://heyduo.com</a>,
+          By accessing <a class="grey--text" href="https://heyduo.com">https://heyduo.com</a>,
           you agree to abide by these Terms of Service and to comply with all
           applicable laws and regulations. If you do not agree with these Terms
           of Service, you are prohibited from using or accessing this website or
