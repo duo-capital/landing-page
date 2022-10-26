@@ -1,14 +1,14 @@
 <template>
   <div>
     <v-container>
-      <v-main class="mt-60">
+      <v-main class="mt-60 white--text">
         <h2>Privacy Policy</h2>
         <p>
           Your privacy is important to us. It is Duo Capital LLC DBA Hey Duo&#39;s policy to
           respect your privacy and comply with any applicable law and regulation
           regarding any personal information we may collect about you, including
           across our website,
-          <a href="https://heyduo.com">https://heyduo.com</a>, and other sites
+          <a class="grey--text" href="https://heyduo.com">https://heyduo.com</a>, and other sites
           we own and operate.
         </p>
         <p>

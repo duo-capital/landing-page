@@ -7,7 +7,9 @@
             <img src="@/assets/img/logo.png" alt="Logo" />
           </v-list-item-avatar>
           <v-list-item-content>
-            <v-list-item-title class="title white--text">HeyDuo</v-list-item-title>
+            <v-list-item-title class="title white--text"
+              >HeyDuo</v-list-item-title
+            >
           </v-list-item-content>
         </v-list-item>
       </v-list>
@@ -33,15 +35,10 @@
       </v-list>
     </v-navigation-drawer>
 
-    <v-app-bar
-      app
-      :color="color"
-      :flat="flat"
-      :dark="!isXs"
-      :expand="flat"
-    >
+    <v-app-bar app :color="color" :flat="flat" :dark="!isXs" :expand="flat">
       <v-toolbar-title>
-        <v-img src="@/assets/img/logo.png" max-width="90px" />
+        <v-img src="@/assets/img/logo.png" max-width="90px"
+        @click="$router.push('/')" />
       </v-toolbar-title>
       <v-spacer />
       <v-app-bar-nav-icon
