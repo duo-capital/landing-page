@@ -6,17 +6,17 @@
         <p>
           These Terms of Service govern your use of the website located at
           <a href="https://heyduo.com">https://heyduo.com</a> and any related
-          services provided by Duo Capital LLC.
+          services provided by Duo Capital LLC DBA Hey Duo.
         </p>
         <p>
           By accessing <a href="https://heyduo.com">https://heyduo.com</a>,
           you agree to abide by these Terms of Service and to comply with all
           applicable laws and regulations. If you do not agree with these Terms
           of Service, you are prohibited from using or accessing this website or
-          using any other services provided by Duo Capital LLC.
+          using any other services provided by Duo Capital LLC DBA Hey Duo.
         </p>
         <p>
-          We, Duo Capital LLC, reserve the right to review and amend any of
+          We, Duo Capital LLC DBA Hey Duo, reserve the right to review and amend any of
           these Terms of Service at our sole discretion. Upon doing so, we will
           update this page. Any changes to these Terms of Service will take
           effect immediately from the date of publication.
@@ -43,7 +43,7 @@
           <li>
             knowingly or negligently use this website or any of its associated
             services in a way that abuses or disrupts our networks or any other
-            service Duo Capital LLC provides;
+            service Duo Capital LLC DBA Hey Duo provides;
           </li>
           <li>
             use this website or its associated services to transmit or publish
@@ -69,7 +69,7 @@
         <h3>Intellectual Property</h3>
         <p>
           The intellectual property in the materials contained in this website
-          are owned by or licensed to Duo Capital LLC and are protected by
+          are owned by or licensed to Duo Capital LLC DBA Hey Duo and are protected by
           applicable copyright and trademark law. We grant our users permission
           to download one copy of the materials for personal, non-commercial
           transitory use.
@@ -83,7 +83,7 @@
         <h3>Liability</h3>
         <p>
           Our website and the materials on our website are provided on an 'as
-          is' basis. To the extent permitted by law, Duo Capital LLC makes no
+          is' basis. To the extent permitted by law, Duo Capital LLC DBA Hey Duo makes no
           warranties, expressed or implied, and hereby disclaims and negates all
           other warranties including, without limitation, implied warranties or
           conditions of merchantability, fitness for a particular purpose, or
@@ -91,10 +91,10 @@
           rights.
         </p>
         <p>
-          In no event shall Duo Capital LLC or its suppliers be liable for any
+          In no event shall Duo Capital LLC DBA Hey Duo or its suppliers be liable for any
           consequential loss suffered or incurred by you or any third party
           arising from the use or inability to use this website or the materials
-          on this website, even if Duo Capital LLC or an authorized
+          on this website, even if Duo Capital LLC DBA Hey Duo or an authorized
           representative has been notified, orally or in writing, of the
           possibility of such damage.
         </p>
@@ -115,7 +115,7 @@
         <h3>Accuracy of Materials</h3>
         <p>
           The materials appearing on our website are not comprehensive and are
-          for general information purposes only. Duo Capital LLC does not
+          for general information purposes only. Duo Capital LLC DBA Hey Duo does not
           warrant or make any representations concerning the accuracy, likely
           results, or reliability of the use of the materials on this website,
           or otherwise relating to such materials or on any resources linked to
@@ -123,10 +123,10 @@
         </p>
         <h3>Links</h3>
         <p>
-          Duo Capital LLC has not reviewed all of the sites linked to its
+          Duo Capital LLC DBA Hey Duo has not reviewed all of the sites linked to its
           website and is not responsible for the contents of any such linked
           site. The inclusion of any link does not imply endorsement, approval,
-          or control by Duo Capital LLC of the site. Use of any such linked site
+          or control by Duo Capital LLC DBA Hey Duo of the site. Use of any such linked site
           is at your own risk and we strongly advise you make your own
           investigations with respect to the suitability of those sites.
         </p>

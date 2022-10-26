@@ -26,10 +26,7 @@
 </template>
 <style scoped>
 .v-main {
-  background-image: url("~@/assets/img/backgroundGeo2.svg");
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
+  background-color:rgb(75, 82, 217);
 }
 </style>
 

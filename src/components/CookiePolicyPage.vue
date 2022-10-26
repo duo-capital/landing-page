@@ -2,11 +2,12 @@
   <div>
     <v-container>
       <v-main class="mt-60">
+        <template class="white--text">
         <h2>Cookie Policy</h2>
         <p>
           We use cookies to help improve your experience of our website at
           <a href="https://heyduo.com">https://heyduo.com</a>. This cookie
-          policy is part of Duo Capital LLC&#39;s privacy policy. It covers the
+          policy is part of Duo Capital LLC DBA Hey Duo&#39;s privacy policy. It covers the
           use of cookies between your device and our site.
         </p>
         <p>
@@ -91,6 +92,7 @@
           websites that use the same third-party service.
         </p>
         <p>We do not use this type of cookie on our site.</p>
+      </template>
       </v-main>
     </v-container>
   </div>

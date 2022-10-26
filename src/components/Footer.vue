@@ -25,7 +25,7 @@
 
       <v-divider></v-divider>
       <v-card-text class="white--text">
-        Copyright &copy; 2022-{{ new Date().getFullYear() }} Duo Capital LLC
+        Copyright &copy; 2022-{{ new Date().getFullYear() }} Duo Capital LLC DBA Hey Duo
       </v-card-text>
     </v-card>
   </v-footer>
@@ -43,7 +43,7 @@ export default {
     icons: [
       {
         text: "mdi-twitter",
-        link: "https://twitter.com/duo_capital",
+        link: "https://twitter.com/HeyDuoHq",
       },
     ],
     navbars: [

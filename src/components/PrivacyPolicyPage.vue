@@ -4,7 +4,7 @@
       <v-main class="mt-60">
         <h2>Privacy Policy</h2>
         <p>
-          Your privacy is important to us. It is Duo Capital LLC&#39;s policy to
+          Your privacy is important to us. It is Duo Capital LLC DBA Hey Duo&#39;s policy to
           respect your privacy and comply with any applicable law and regulation
           regarding any personal information we may collect about you, including
           across our website,
@@ -297,7 +297,7 @@
           us using the following details:
         </p>
         <p>
-          Duo Capital LLC<br />
+          Duo Capital LLC DBA Hey Duo<br />
           info@heyduo.com
         </p>
       </v-main>
