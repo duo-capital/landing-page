@@ -88,14 +88,9 @@ export default {
     return {
       faqs: [
         {
-          title: "Why are you building this?",
-          content:
-            "As a couple, we have relied on apps that partially solved our needs over the years, first HoneyDue, then Zeta, but after having to use them along with Excel due to feature gaps, and their eventual pivots due to an unsustainable business model, we decided we had enough. We are now building the product we want for ourselves and like-minded couples.",
-        },
-        {
-          title: "What are the top features?",
+          title: "Features",
           content: `Import and split transactions from your personal and joint bank accounts, cards, Amazon purchases and more. \n
-        You can also create budgets and track progress, export your data to excel, and track manual investments and transactions.
+        You can get in depth analytics across and within spending categories to better understand where your money is going. Finally, we built in a monthly financial quiz to make sure you stay on top of your finances.
         `,
         },
         {
@@ -104,14 +99,14 @@ export default {
             "$1.99 monthly, or $19.99 yearly. We want to build something sustainable without having to cross-sell you other financial products.",
         },
         {
-          title: "Will there be an app?",
+          title: "Is there a mobile app?",
           content:
             "Not yet. We will focus on a web-based application first, bringing you in-depth analysis of your financials and allowing you to export to CSV.",
         },
         {
           title: "Who is behind the project?",
           content:
-            "Rom, and Nat, are a tech couple based out of NY. We've been running a tight ship for years by leveraging various apps and spreadsheets. After our favorite apps pivoted or stopped supporting features, we decided to build something for ourselves and the community.",
+            "Rom and Nat, are a tech couple based out of NY. We've been running a tight ship for years by leveraging various apps and spreadsheets. After our favorite apps pivoted or stopped supporting features, we decided to build something for ourselves and the community.",
           links: [
             {
               title: "Rom's LinkedIn.",
