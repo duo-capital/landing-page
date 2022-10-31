@@ -22,7 +22,6 @@
           >{{ navbar.names }}
         </router-link>
       </v-card-text>
-
       <v-divider></v-divider>
       <v-card-text class="white--text">
         Copyright &copy; 2022-{{ new Date().getFullYear() }} Duo Capital LLC DBA Hey Duo
@@ -44,6 +43,10 @@ export default {
       {
         text: "mdi-twitter",
         link: "https://twitter.com/HeyDuoHq",
+      },
+      {
+        text: "mdi-email",
+        link: "mailto:info@heyduo.com",
       },
     ],
     navbars: [
