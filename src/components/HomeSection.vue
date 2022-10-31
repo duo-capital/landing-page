@@ -17,7 +17,7 @@
                 outlined
                 large
                 dark
-                href="https://wqbotpc2g9r.typeform.com/to/lbqzqZi2"
+                href="https://research.typeform.com/to/lbqzqZi2"
                 target="_blank"
                 class="mt-5 white--text"
               >
