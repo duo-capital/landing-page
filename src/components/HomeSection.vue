@@ -6,7 +6,7 @@
           <v-row class="mb-12" align="center" justify="center">
             <v-col cols="12" md="6" xl="8">
               <h1 class="display-2 font-weight-bold mb-4 white--text">
-                Shared-expense organizer for couples
+                Money management for couples
               </h1>
               <h1 class="font-weight-light mb-4 white--text">
                 Minimalistic, intuitive, simple.
