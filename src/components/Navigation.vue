@@ -32,13 +32,26 @@
             }}</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
+        <v-list-item link href="https://web.heyduo.com" target="_blank">
+          <v-list-item-icon class="justify-center">
+            <v-icon color="white">mdi-login</v-icon>
+          </v-list-item-icon>
+          <v-list-item-content>
+            <v-list-item-title class="subtitile-1 white--text"
+              >Login</v-list-item-title
+            >
+          </v-list-item-content>
+        </v-list-item>
       </v-list>
     </v-navigation-drawer>
 
     <v-app-bar app :color="color" :flat="flat" :dark="!isXs" :expand="flat">
       <v-toolbar-title>
-        <v-img src="@/assets/img/logo.png" max-width="90px"
-        @click="$router.push('/')" />
+        <v-img
+          src="@/assets/img/logo.png"
+          max-width="90px"
+          @click="$router.push('/')"
+        />
       </v-toolbar-title>
       <v-spacer />
       <v-app-bar-nav-icon
@@ -50,6 +63,11 @@
         <v-btn text @click="$router.push('/')">
           <span :class="flat ? 'mr-2 white--text' : 'mr-2 text--white'"
             >Home</span
+          >
+        </v-btn>
+        <v-btn rounded outlined href="https://web.heyduo.com" target="_blank">
+          <span :class="flat ? 'mr-2 white--text' : 'mr-2 text--white'"
+            >Login</span
           >
         </v-btn>
       </div>
