@@ -21,7 +21,7 @@
                       outlined
                       large
                       dark
-                      href="https://research.typeform.com/to/lbqzqZi2"
+                      href="https://web.heyduo.com"
                       target="_blank"
                       class="mt-5 white--text"
                     >
@@ -131,12 +131,12 @@ export default {
         {
           title: "Features",
           content: `Import and split transactions from your personal and joint bank accounts, cards, Amazon purchases and more. \n
-        You can get in depth analytics across and within spending categories to better understand where your money is going. Finally, we built in a monthly financial quiz to make sure you stay on top of your finances.
+        You can get in depth analytics across and within spending categories to better understand where your money is going.
         `,
         },
         {
           title: "Pricing",
-          content:
+          content:  
             "$1.99 monthly, or $19.99 yearly. We want to build something sustainable without having to cross-sell you other financial products.",
         },
         {
