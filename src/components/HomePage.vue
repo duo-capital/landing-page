@@ -27,6 +27,10 @@
                     >
                       Get Started
                     </v-btn>
+                    <h3 class="font-weight-bold mt-2 white--text text-center">
+                    30 day free trial
+                  </h3>
+                    
                   </div>
                 </v-col>
                 <v-col cols="12" md="6" xl="4" class="hidden-sm-and-down">
@@ -57,7 +61,7 @@
                       style="position: relative; padding-bottom: 56.25%; height: 0;"
                     >
                       <iframe
-                        src="https://www.loom.com/embed/d58f299a2cac4f3f84045f6daaca5643?hide_owner=true&hideEmbedTopBar=true"
+                        src="https://www.loom.com/embed/c6c4f865e6cf419a87af0faf0598305f?hide_owner=true&hideEmbedTopBar=true"
                         frameborder="0"
                         webkitallowfullscreen
                         mozallowfullscreen
